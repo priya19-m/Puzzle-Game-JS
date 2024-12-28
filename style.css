@@ -9,7 +9,7 @@ body {
   background-position: center ;
   background-repeat:no-repeat;
   background-size: cover;
-  background-color:lightpink;
+  background-color:lavenderblush;
 }
 
 .container, #game-screen {
@@ -83,7 +83,7 @@ p {
   top: 70px;
   text-align: center;
   h1{
-     color:yellow;
+     color:red;
      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
 }
