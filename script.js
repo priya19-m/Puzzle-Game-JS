@@ -23,22 +23,6 @@ document.addEventListener("DOMContentLoaded", () => {
     welcomeScreen.style.display = "none";
     gameScreen.style.display = "block";
 
-    let countdown = 5; // Countdown starts at 5 seconds
-  const countdownTimer = document.getElementById("countdown-timer");
-  countdownTimer.textContent = `Game starts in: ${countdown} seconds`;
-
-  const countdownInterval = setInterval(() => {
-    countdown--;
-    countdownTimer.textContent = `Game starts in: ${countdown} seconds`;
-
-    if (countdown <= 0) {
-      clearInterval(countdownInterval);
-      countdownTimer.textContent = ""; // Clear countdown message
-      initializePuzzle(); // Enable puzzle and start the game
-    }
-  }, 1000);
-
-
     generatePuzzle();
     randomizePuzzle();
     renderPuzzle();
