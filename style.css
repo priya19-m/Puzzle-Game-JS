@@ -1,0 +1,90 @@
+body {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f9;
+  font-family: Arial, sans-serif;
+  background-position: center ;
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-color:lightpink;
+}
+
+.container, #game-screen {
+  background-image: url(https://images.pexels.com/photos/8385739/pexels-photo-8385739.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+
+.container {
+  background-color:gray;
+  padding: 20px 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px gray;
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 10px;
+  font-family:'Times New Roman', Times, serif;
+  color:mediumslateblue;
+}
+
+p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+  font-style: oblique;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color:mistyrose;
+}
+
+.buttons button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 1em;
+  border: none;
+  border-radius: 50px;
+  background-color:indianred;
+  color:navajowhite;
+  cursor:progress;
+  transition: background-color 0.3s;
+}
+
+.buttons button:hover {
+  background-color: #007ab327;
+}
+
+#puzzle-container {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  background-color:lightgrey;
+  border: 2px solid powderblue;
+  gap: 5px;
+}
+
+.puzzle-item {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-color:rgba(128, 130, 240, 0.418);
+  border: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24 px;
+  font-weight: bold;
+  cursor: grab;
+}
+
+.project-title {
+  position: absolute;
+  margin-bottom: auto;
+  top: 70px;
+  text-align: center;
+  h1{
+     color:yellow;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+}
+
